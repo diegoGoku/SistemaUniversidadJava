@@ -19,7 +19,7 @@ public class NegocioCarrera {
           System.out.println(nombre+descripcion);
             DCarrera.DInsertarCarrera(nombre,descripcion);
 
-        System.out.println("Negocio - Insertar carrera: " + nombre + " - " + descripcion);
+        System.out.println("Negocios  - Insertar carrera a la base de datos: " + nombre + " - " + descripcion);
     }
 
     public void NModificarCarrera(String idCarrera, String nombre, String descripcion) throws Exception {
